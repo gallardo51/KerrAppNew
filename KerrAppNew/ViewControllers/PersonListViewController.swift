@@ -13,6 +13,7 @@ class PersonListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.rowHeight = 80
     }
     
     // MARK: - Table view data source
@@ -27,14 +28,17 @@ class PersonListViewController: UITableViewController {
         
         content.text = person.fullName
         content.secondaryText = person.post
+        content.image = UIImage(named: person.fullName)
         
         cell.contentConfiguration = content
         return cell
-        
+    }
         
         // MARK: - Navigation
-        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        }
-        
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            guard let detailsVC = segue.destination as? PersonDetailsViewController else { return }
+            guard let indexPath = tableView.indexPathForSelectedRow else { return }
+            let person = personList[indexPath.row]
+            detailsVC.person = person
     }
 }
