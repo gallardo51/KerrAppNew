@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		BAF381FB2B43F4740030247E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF381FA2B43F4740030247E /* AppDelegate.swift */; };
 		BAF381FD2B43F4740030247E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF381FC2B43F4740030247E /* SceneDelegate.swift */; };
-		BAF381FF2B43F4740030247E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF381FE2B43F4740030247E /* ViewController.swift */; };
 		BAF382022B43F4740030247E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF382002B43F4740030247E /* Main.storyboard */; };
 		BAF382042B43F4760030247E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF382032B43F4760030247E /* Assets.xcassets */; };
 		BAF382072B43F4760030247E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF382052B43F4760030247E /* LaunchScreen.storyboard */; };
 		BAF382122B43F4760030247E /* KerrAppNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382112B43F4760030247E /* KerrAppNewTests.swift */; };
 		BAF3821C2B43F4760030247E /* KerrAppNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3821B2B43F4760030247E /* KerrAppNewUITests.swift */; };
 		BAF3821E2B43F4760030247E /* KerrAppNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3821D2B43F4760030247E /* KerrAppNewUITestsLaunchTests.swift */; };
+		BAF3822B2B43F91A0030247E /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3822A2B43F91A0030247E /* PersonListViewController.swift */; };
+		BAF3822D2B43FAAB0030247E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3822C2B43FAAB0030247E /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		BAF381F72B43F4740030247E /* KerrAppNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KerrAppNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF381FA2B43F4740030247E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF381FC2B43F4740030247E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BAF381FE2B43F4740030247E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAF382012B43F4740030247E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAF382032B43F4760030247E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF382062B43F4760030247E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		BAF382172B43F4760030247E /* KerrAppNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KerrAppNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF3821B2B43F4760030247E /* KerrAppNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KerrAppNewUITests.swift; sourceTree = "<group>"; };
 		BAF3821D2B43F4760030247E /* KerrAppNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KerrAppNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAF3822A2B43F91A0030247E /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
+		BAF3822C2B43FAAB0030247E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 			children = (
 				BAF381FA2B43F4740030247E /* AppDelegate.swift */,
 				BAF381FC2B43F4740030247E /* SceneDelegate.swift */,
-				BAF381FE2B43F4740030247E /* ViewController.swift */,
-				BAF382002B43F4740030247E /* Main.storyboard */,
 				BAF382032B43F4760030247E /* Assets.xcassets */,
+				BAF382002B43F4740030247E /* Main.storyboard */,
+				BAF3822A2B43F91A0030247E /* PersonListViewController.swift */,
+				BAF3822C2B43FAAB0030247E /* Person.swift */,
 				BAF382052B43F4760030247E /* LaunchScreen.storyboard */,
 				BAF382082B43F4760030247E /* Info.plist */,
 			);
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF381FF2B43F4740030247E /* ViewController.swift in Sources */,
+				BAF3822B2B43F91A0030247E /* PersonListViewController.swift in Sources */,
 				BAF381FB2B43F4740030247E /* AppDelegate.swift in Sources */,
+				BAF3822D2B43FAAB0030247E /* Person.swift in Sources */,
 				BAF381FD2B43F4740030247E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
