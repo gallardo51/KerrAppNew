@@ -172,10 +172,10 @@
             </objects>
             <point key="canvasLocation" x="-964" y="-734"/>
         </scene>
-        <!--О компании-->
+        <!--About Company-->
         <scene sceneID="mvo-YK-QAj">
             <objects>
-                <viewController title="О компании" id="e66-JA-qD3" sceneMemberID="viewController">
+                <viewController title="About Company" id="e66-JA-qD3" customClass="CompanyInfoViewController" customModule="KerrAppNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pja-UL-hBu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,13 +198,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="productID" id="sjX-gT-EcP">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="groupID" id="sjX-gT-EcP">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sjX-gT-EcP" id="fc2-iq-NkW">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Lsu-od-JdN" kind="show" id="oM1-Ei-PyH"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -217,6 +220,70 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nyt-mi-Fp4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1518" y="1465"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="irJ-qY-GZd">
+            <objects>
+                <viewController id="5ez-bd-sJ5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5aP-4T-HA2">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aor-Qb-BCQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="c3R-SD-IWo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E3F-GN-aqR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-729" y="1478"/>
+        </scene>
+        <!--Products-->
+        <scene sceneID="s72-g0-9xc">
+            <objects>
+                <tableViewController title="Products" id="Lsu-od-JdN" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="t01-VN-UZV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="productID" id="35e-wK-9OK">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="35e-wK-9OK" id="32k-6x-mXQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="3P5-xr-ULV" kind="show" id="l8Y-cw-Eg4"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Lsu-od-JdN" id="84J-g2-4NN"/>
+                            <outlet property="delegate" destination="Lsu-od-JdN" id="1GL-Kt-fIj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="8IM-DN-M5J"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ZR-GW-ob7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1518" y="2165"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uNh-Ii-hbT">
+            <objects>
+                <viewController id="3P5-xr-ULV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sXj-S1-a1q">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="j9a-mt-aIU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tbW-2o-WuI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tbT-Fx-HnT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1518" y="2910"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="q7y-Rg-8Su">
@@ -240,10 +307,10 @@
             </objects>
             <point key="canvasLocation" x="-964" y="29"/>
         </scene>
-        <!--Продукты-->
+        <!--Groups-->
         <scene sceneID="cxn-1m-V3g">
             <objects>
-                <navigationController title="Продукты" automaticallyAdjustsScrollViewInsets="NO" id="BdE-0N-yy7" sceneMemberID="viewController">
+                <navigationController title="Groups" automaticallyAdjustsScrollViewInsets="NO" id="BdE-0N-yy7" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Продукты" image="basket.fill" catalog="system" id="kxB-Lo-7il"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="psh-Ro-wMS">
@@ -259,15 +326,29 @@
             </objects>
             <point key="canvasLocation" x="-1518" y="763"/>
         </scene>
-        <!--Опрос-->
+        <!--Quiz-->
         <scene sceneID="JsM-kh-qwf">
             <objects>
-                <viewController title="Опрос" id="4Zf-BX-Wv8" sceneMemberID="viewController">
+                <viewController title="Quiz" id="4Zf-BX-Wv8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M0K-Ug-5q3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrc-gA-iCk">
+                                <rect key="frame" x="159" y="403.66666666666669" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="5ez-bd-sJ5" kind="show" id="Ktq-00-4BC"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="atQ-iD-FOn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yrc-gA-iCk" firstAttribute="centerX" secondItem="M0K-Ug-5q3" secondAttribute="centerX" id="GMO-P0-pDd"/>
+                            <constraint firstItem="yrc-gA-iCk" firstAttribute="centerY" secondItem="M0K-Ug-5q3" secondAttribute="centerY" id="kej-sz-C36"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Опрос" image="questionmark.app" catalog="system" id="ih0-RQ-hrx"/>
                 </viewController>
@@ -275,10 +356,10 @@
             </objects>
             <point key="canvasLocation" x="-731" y="763"/>
         </scene>
-        <!--Сотрудники-->
+        <!--Employees-->
         <scene sceneID="fW9-8M-oNW">
             <objects>
-                <navigationController title="Сотрудники" automaticallyAdjustsScrollViewInsets="NO" id="pEf-BE-JSR" sceneMemberID="viewController">
+                <navigationController title="Employees" automaticallyAdjustsScrollViewInsets="NO" id="pEf-BE-JSR" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Сотрудники" image="person.2.fill" catalog="system" id="cRX-k3-sQR"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="06t-lj-goL">
@@ -294,10 +375,10 @@
             </objects>
             <point key="canvasLocation" x="89" y="763"/>
         </scene>
-        <!--Пользователь-->
+        <!--UserInfo-->
         <scene sceneID="4pc-kS-IE0">
             <objects>
-                <viewController title="Пользователь" id="JzC-bj-Em2" sceneMemberID="viewController">
+                <viewController title="UserInfo" id="JzC-bj-Em2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9df-6T-D8k">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

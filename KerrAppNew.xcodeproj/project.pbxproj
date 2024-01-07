@@ -22,6 +22,10 @@
 		BAF382382B4AF0870030247E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382372B4AF0870030247E /* Product.swift */; };
 		BAF3823A2B4AF82B0030247E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382392B4AF82B0030247E /* Question.swift */; };
 		BAF3823C2B4AFBC90030247E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3823B2B4AFBC90030247E /* User.swift */; };
+		BAF3823E2B4AFDE80030247E /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3823D2B4AFDE80030247E /* CompanyInfoViewController.swift */; };
+		BAF382402B4AFE530030247E /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3823F2B4AFE530030247E /* ProductListViewController.swift */; };
+		BAF382422B4AFEA50030247E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382412B4AFEA50030247E /* QuizViewController.swift */; };
+		BAF382442B4AFECF0030247E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382432B4AFECF0030247E /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		BAF382372B4AF0870030247E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		BAF382392B4AF82B0030247E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		BAF3823B2B4AFBC90030247E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BAF3823D2B4AFDE80030247E /* CompanyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfoViewController.swift; sourceTree = "<group>"; };
+		BAF3823F2B4AFE530030247E /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		BAF382412B4AFEA50030247E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		BAF382432B4AFECF0030247E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,10 @@
 			isa = PBXGroup;
 			children = (
 				BAF382352B4AE02B0030247E /* LogInViewController.swift */,
+				BAF3823D2B4AFDE80030247E /* CompanyInfoViewController.swift */,
+				BAF3823F2B4AFE530030247E /* ProductListViewController.swift */,
+				BAF382412B4AFEA50030247E /* QuizViewController.swift */,
+				BAF382432B4AFECF0030247E /* ResultViewController.swift */,
 				BAF3822A2B43F91A0030247E /* PersonListViewController.swift */,
 				BAF3822E2B44058F0030247E /* PersonDetailsViewController.swift */,
 			);
@@ -316,14 +328,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF382442B4AFECF0030247E /* ResultViewController.swift in Sources */,
 				BAF3822F2B44058F0030247E /* PersonDetailsViewController.swift in Sources */,
 				BAF3823A2B4AF82B0030247E /* Question.swift in Sources */,
 				BAF3822B2B43F91A0030247E /* PersonListViewController.swift in Sources */,
+				BAF382422B4AFEA50030247E /* QuizViewController.swift in Sources */,
 				BAF382362B4AE02B0030247E /* LogInViewController.swift in Sources */,
 				BAF381FB2B43F4740030247E /* AppDelegate.swift in Sources */,
 				BAF3823C2B4AFBC90030247E /* User.swift in Sources */,
 				BAF3822D2B43FAAB0030247E /* Person.swift in Sources */,
 				BAF381FD2B43F4740030247E /* SceneDelegate.swift in Sources */,
+				BAF3823E2B4AFDE80030247E /* CompanyInfoViewController.swift in Sources */,
+				BAF382402B4AFE530030247E /* ProductListViewController.swift in Sources */,
 				BAF382382B4AF0870030247E /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
