@@ -9,7 +9,7 @@ import UIKit
 
 class GroupProductViewController: UITableViewController {
     
-    private var groupList = GroupProduct.getGroupProduct()
+    private var group = Product.getProduct()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,13 +19,13 @@ class GroupProductViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        groupList.count
+        group.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "groupID", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        let group = groupList[indexPath.row]
+        let group = group[indexPath.row]
         
         content.text = group.nameOfGroup
         
@@ -37,7 +37,8 @@ class GroupProductViewController: UITableViewController {
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
          guard let productVC = segue.destination as? ProductListViewController else { return }
          guard let indexPath = tableView.indexPathForSelectedRow else { return }
-         let product = groupList[indexPath.row]
+         let product = group[indexPath.row]
+         productVC.product = product
      }
     
 }
