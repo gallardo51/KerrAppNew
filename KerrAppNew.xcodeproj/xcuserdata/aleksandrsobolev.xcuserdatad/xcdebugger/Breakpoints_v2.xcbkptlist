@@ -14,10 +14,42 @@
             filePath = "KerrAppNew/Models/Product.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "getProduct()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "444937FE-DFC0-4014-9958-E56476093140 - 874e604b8ae6a565"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static KerrAppNew.Product.getProduct() -&gt; Swift.Array&lt;KerrAppNew.Product&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/Models/Product.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "384">
+               </Location>
+               <Location
+                  uuid = "444937FE-DFC0-4014-9958-E56476093140 - 874e604b8ae6a565"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static KerrAppNew.Product.getProduct() -&gt; Swift.Array&lt;KerrAppNew.Product&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/Models/Product.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

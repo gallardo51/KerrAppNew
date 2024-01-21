@@ -8,6 +8,8 @@
 import UIKit
 
 class ProductListViewController: UITableViewController {
+    
+    var product: Product!
 
     override func viewDidLoad() {
         super.viewDidLoad()
