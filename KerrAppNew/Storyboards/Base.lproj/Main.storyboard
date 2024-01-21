@@ -192,7 +192,7 @@
         <!--Продукты-->
         <scene sceneID="pd2-e4-7dT">
             <objects>
-                <tableViewController id="Gf3-ni-N5y" sceneMemberID="viewController">
+                <tableViewController id="Gf3-ni-N5y" customClass="GroupProductViewController" customModule="KerrAppNew" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ABe-c9-B0K">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -221,10 +221,10 @@
             </objects>
             <point key="canvasLocation" x="-1518" y="1465"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="irJ-qY-GZd">
             <objects>
-                <viewController id="5ez-bd-sJ5" sceneMemberID="viewController">
+                <viewController id="5ez-bd-sJ5" customClass="ResultViewController" customModule="KerrAppNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5aP-4T-HA2">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,7 +240,7 @@
         <!--Products-->
         <scene sceneID="s72-g0-9xc">
             <objects>
-                <tableViewController title="Products" id="Lsu-od-JdN" sceneMemberID="viewController">
+                <tableViewController title="Products" id="Lsu-od-JdN" customClass="ProductListViewController" customModule="KerrAppNew" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="t01-VN-UZV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,10 +269,10 @@
             </objects>
             <point key="canvasLocation" x="-1518" y="2165"/>
         </scene>
-        <!--View Controller-->
+        <!--Product Info View Controller-->
         <scene sceneID="uNh-Ii-hbT">
             <objects>
-                <viewController id="3P5-xr-ULV" sceneMemberID="viewController">
+                <viewController id="3P5-xr-ULV" customClass="ProductInfoViewController" customModule="KerrAppNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sXj-S1-a1q">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -292,6 +292,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ppo-u9-Uu7"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iTO-zJ-gUk">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -329,7 +330,7 @@
         <!--Quiz-->
         <scene sceneID="JsM-kh-qwf">
             <objects>
-                <viewController title="Quiz" id="4Zf-BX-Wv8" sceneMemberID="viewController">
+                <viewController title="Quiz" id="4Zf-BX-Wv8" customClass="QuizViewController" customModule="KerrAppNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M0K-Ug-5q3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -378,7 +379,7 @@
         <!--UserInfo-->
         <scene sceneID="4pc-kS-IE0">
             <objects>
-                <viewController title="UserInfo" id="JzC-bj-Em2" sceneMemberID="viewController">
+                <viewController title="UserInfo" id="JzC-bj-Em2" customClass="UserInfoViewController" customModule="KerrAppNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9df-6T-D8k">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
