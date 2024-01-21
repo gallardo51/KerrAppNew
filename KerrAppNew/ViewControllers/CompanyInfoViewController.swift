@@ -11,7 +11,6 @@ class CompanyInfoViewController: UIViewController {
     
     private let infoCompany = CompanyInformation.getCompanyInfo()
     
-    
     @IBOutlet weak var titleAboutCompany: UILabel!
     @IBOutlet weak var aboutCompany: UILabel!
     @IBOutlet weak var titleHistory: UILabel!

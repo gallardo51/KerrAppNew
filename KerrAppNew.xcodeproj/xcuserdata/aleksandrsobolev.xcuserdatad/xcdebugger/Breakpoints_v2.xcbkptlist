@@ -23,114 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "71C925AD-1892-401F-9267-2B656926CA2F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "CompanyInfoViewController"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  uuid = "71C925AD-1892-401F-9267-2B656926CA2F - 3dfff349ba49c4d6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KerrAppNew.CompanyInfoViewController.titleAboutCompany.getter : Swift.Optional&lt;__C.UILabel&gt;"
-                  moduleName = "KerrAppNew"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  uuid = "71C925AD-1892-401F-9267-2B656926CA2F - 9bcdb49af22f28c2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KerrAppNew.CompanyInfoViewController.titleAboutCompany.setter : Swift.Optional&lt;__C.UILabel&gt;"
-                  moduleName = "KerrAppNew"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  uuid = "71C925AD-1892-401F-9267-2B656926CA2F - 834241cd058b2fca"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KerrAppNew.CompanyInfoViewController.titleAboutCompany.modify : Swift.Optional&lt;__C.UILabel&gt;"
-                  moduleName = "KerrAppNew"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "0">
-               </Location>
-               <Location
-                  uuid = "71C925AD-1892-401F-9267-2B656926CA2F - c66471a8aa0dee8d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KerrAppNew.CompanyInfoViewController.titleAboutCompany.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
-                  moduleName = "KerrAppNew"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/%3Ccompiler-generated%3E"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "71C925AD-1892-401F-9267-2B656926CA2F - 9ffc4cce5fbe6043"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KerrAppNew.CompanyInfoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; KerrAppNew.CompanyInfoViewController"
-                  moduleName = "KerrAppNew"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "196">
-               </Location>
-               <Location
-                  uuid = "71C925AD-1892-401F-9267-2B656926CA2F - 21024a054a0311bd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KerrAppNew.CompanyInfoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;KerrAppNew.CompanyInfoViewController&gt;"
-                  moduleName = "KerrAppNew"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "168">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "BEAD5215-50CF-4C36-8925-F5879C81584F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -138,8 +30,8 @@
             filePath = "KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "CompanyInfoViewController"
             landmarkType = "3">
             <Locations>
@@ -246,8 +138,8 @@
             filePath = "KerrAppNew/ViewControllers/CompanyInfoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "CompanyInfoViewController"
             landmarkType = "3">
             <Locations>
