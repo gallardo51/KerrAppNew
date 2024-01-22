@@ -10,13 +10,6 @@ import UIKit
 class ProductListViewController: UITableViewController {
     
     var product: Product!
-    private var element = Product.getProduct()
-    private var item: [Item] = []
-    private var currentItem: [Item] {
-        element[itemIndex].item
-    }
-    private var itemIndex = 0
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,14 +20,14 @@ class ProductListViewController: UITableViewController {
     // MARK: - Table view data source
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        currentItem.count
+        product.item.count
     }
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "productID", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        let item = currentItem[indexPath.row]
+        let item = product.item[indexPath.row]
         content.text = item.name
         
         cell.contentConfiguration = content
@@ -46,7 +39,7 @@ class ProductListViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let productInfoVC = segue.destination as? ProductInfoViewController else { return }
         guard let indexPath = tableView.indexPathForSelectedRow else { return }
-        let item = currentItem[indexPath.row]
+        let item = product.item[indexPath.row]
         productInfoVC.item = item
     }
 }
