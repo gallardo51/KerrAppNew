@@ -28,6 +28,8 @@ class GroupProductViewController: UITableViewController {
         let group = group[indexPath.row]
         
         content.text = group.nameOfGroup
+        content.image = UIImage(named: group.nameOfGroup)
+        content.imageProperties.cornerRadius = tableView.rowHeight / 2
         
         cell.contentConfiguration = content
         return cell

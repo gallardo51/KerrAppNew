@@ -11,6 +11,7 @@ class ProductInfoViewController: UIViewController {
     
     var item: Item!
     
+    @IBOutlet weak var productImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var advantageLabel: UILabel!
@@ -18,6 +19,7 @@ class ProductInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        productImage.image = UIImage(named: item.name)
         nameLabel.text = item.name
         descriptionLabel.text = item.description
         advantageLabel.text = item.advantage

@@ -411,6 +411,7 @@
                         <outlet property="advantageLabel" destination="d1E-HD-c2x" id="brb-oz-ma2"/>
                         <outlet property="descriptionLabel" destination="Lxp-JA-GVG" id="Dt6-sS-BBb"/>
                         <outlet property="nameLabel" destination="IwF-oo-7Dd" id="aDD-li-RH9"/>
+                        <outlet property="productImage" destination="dX5-de-isM" id="Cck-ZS-ymq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tbT-Fx-HnT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

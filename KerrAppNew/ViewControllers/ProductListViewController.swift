@@ -29,6 +29,8 @@ class ProductListViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         let item = product.item[indexPath.row]
         content.text = item.name
+        content.image = UIImage(named: item.name)
+        content.imageProperties.cornerRadius = tableView.rowHeight / 2
         
         cell.contentConfiguration = content
         
