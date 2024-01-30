@@ -11,6 +11,7 @@
 		BA11DDC62B5D4F060090D4C9 /* GroupProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC52B5D4F060090D4C9 /* GroupProductViewController.swift */; };
 		BA11DDC82B5D4FE60090D4C9 /* ProductInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC72B5D4FE60090D4C9 /* ProductInfoViewController.swift */; };
 		BA11DDCA2B5D54D60090D4C9 /* AboutCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC92B5D54D60090D4C9 /* AboutCompany.swift */; };
+		BA5A93B12B69573A00318C67 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A93B02B69573A00318C67 /* QuestionsViewController.swift */; };
 		BAF381FB2B43F4740030247E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF381FA2B43F4740030247E /* AppDelegate.swift */; };
 		BAF381FD2B43F4740030247E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF381FC2B43F4740030247E /* SceneDelegate.swift */; };
 		BAF382022B43F4740030247E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF382002B43F4740030247E /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		BA11DDC52B5D4F060090D4C9 /* GroupProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupProductViewController.swift; sourceTree = "<group>"; };
 		BA11DDC72B5D4FE60090D4C9 /* ProductInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoViewController.swift; sourceTree = "<group>"; };
 		BA11DDC92B5D54D60090D4C9 /* AboutCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCompany.swift; sourceTree = "<group>"; };
+		BA5A93B02B69573A00318C67 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		BAF381F72B43F4740030247E /* KerrAppNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KerrAppNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF381FA2B43F4740030247E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF381FC2B43F4740030247E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				BAF3823F2B4AFE530030247E /* ProductListViewController.swift */,
 				BA11DDC72B5D4FE60090D4C9 /* ProductInfoViewController.swift */,
 				BAF382412B4AFEA50030247E /* QuizViewController.swift */,
+				BA5A93B02B69573A00318C67 /* QuestionsViewController.swift */,
 				BAF382432B4AFECF0030247E /* ResultViewController.swift */,
 				BAF3822A2B43F91A0030247E /* PersonListViewController.swift */,
 				BAF3822E2B44058F0030247E /* PersonDetailsViewController.swift */,
@@ -354,6 +357,7 @@
 				BA11DDCA2B5D54D60090D4C9 /* AboutCompany.swift in Sources */,
 				BAF3822D2B43FAAB0030247E /* Person.swift in Sources */,
 				BAF381FD2B43F4740030247E /* SceneDelegate.swift in Sources */,
+				BA5A93B12B69573A00318C67 /* QuestionsViewController.swift in Sources */,
 				BAF3823E2B4AFDE80030247E /* CompanyInfoViewController.swift in Sources */,
 				BAF382402B4AFE530030247E /* ProductListViewController.swift in Sources */,
 				BAF382382B4AF0870030247E /* Product.swift in Sources */,
