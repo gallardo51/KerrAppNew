@@ -24,10 +24,8 @@ struct Subject {
     let surname: String
     let userImage: String
     let bornDate: String
-    let zodiacSing: String
-    let cityFrom: String
     let cellPhone: String
-    let hobby: String
+    let email: String
     
     var fullName: String {
         "\(name) \(surname)"
@@ -39,10 +37,8 @@ struct Subject {
             surname: "Соболев",
             userImage: "AlexPH",
             bornDate: "08.07.1988",
-            zodiacSing: "Рак",
-            cityFrom: "Воронеж",
             cellPhone: "89610297502",
-            hobby: "Программирование"
+            email: "31108@mail.ru"
         )
     }
 }
