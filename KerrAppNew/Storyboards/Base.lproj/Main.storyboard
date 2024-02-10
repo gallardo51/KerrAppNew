@@ -556,6 +556,9 @@
                             <constraint firstItem="UHC-5j-etU" firstAttribute="top" secondItem="70E-Px-Tc2" secondAttribute="top" constant="60" id="uZr-vb-eUq"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="Gbe-dr-66P" id="4G7-Ei-8Qh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVa-7m-3wh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
