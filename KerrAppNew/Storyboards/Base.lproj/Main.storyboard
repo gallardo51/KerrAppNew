@@ -323,7 +323,7 @@
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="spV-fo-NRR">
                                 <rect key="frame" x="0.0" y="108" width="393" height="4"/>
                             </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2z-Dq-ZXg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2z-Dq-ZXg">
                                 <rect key="frame" x="20" y="122" width="353" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -336,41 +336,65 @@
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="34.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="yJD-nB-BFL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfj-pe-ZYG">
                                         <rect key="frame" x="0.0" y="44.333333333333343" width="353" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="IGF-Bj-Y0H"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7r-H4-sBB">
                                         <rect key="frame" x="0.0" y="88.666666666666657" width="353" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="4YG-WU-27r"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7I-lX-pcC">
                                         <rect key="frame" x="0.0" y="133.00000000000003" width="353" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="47b-Qb-ZBg"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P43-JL-fWS">
                                         <rect key="frame" x="0.0" y="177.33333333333334" width="353" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="n7h-A0-Oyx"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cK-Gf-pvK">
                                         <rect key="frame" x="0.0" y="221.66666666666666" width="353" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="pRh-jc-ad1"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyd-Xd-tSP">
                                         <rect key="frame" x="0.0" y="266" width="353" height="34.333333333333314"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="89c-eT-afv"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALf-Cj-4My">
                                         <rect key="frame" x="0.0" y="310.33333333333337" width="353" height="34.333333333333314"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <connections>
+                                            <action selector="answerButtonPressed:" destination="5ez-bd-sJ5" eventType="touchUpInside" id="ZsX-AM-vPx"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -391,6 +415,16 @@
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="c3R-SD-IWo"/>
                     <connections>
+                        <outlet property="questionLabel" destination="h2z-Dq-ZXg" id="0yU-Ze-eLM"/>
+                        <outlet property="questionProgressView" destination="spV-fo-NRR" id="PUq-p7-KKI"/>
+                        <outletCollection property="answerChosenButtons" destination="CzN-0T-I7I" collectionClass="NSMutableArray" id="itX-zg-fHY"/>
+                        <outletCollection property="answerChosenButtons" destination="Dfj-pe-ZYG" collectionClass="NSMutableArray" id="ymn-wO-jdt"/>
+                        <outletCollection property="answerChosenButtons" destination="Z7r-H4-sBB" collectionClass="NSMutableArray" id="fkI-Kr-6hR"/>
+                        <outletCollection property="answerChosenButtons" destination="T7I-lX-pcC" collectionClass="NSMutableArray" id="KYc-Dw-xzf"/>
+                        <outletCollection property="answerChosenButtons" destination="P43-JL-fWS" collectionClass="NSMutableArray" id="7FQ-Ec-xBI"/>
+                        <outletCollection property="answerChosenButtons" destination="6cK-Gf-pvK" collectionClass="NSMutableArray" id="c6q-zh-6DU"/>
+                        <outletCollection property="answerChosenButtons" destination="jyd-Xd-tSP" collectionClass="NSMutableArray" id="CyI-4w-ncH"/>
+                        <outletCollection property="answerChosenButtons" destination="ALf-Cj-4My" collectionClass="NSMutableArray" id="FzI-C0-4ht"/>
                         <segue destination="r2s-p8-3Lr" kind="showDetail" identifier="showResult" id="BjS-xY-Bk3"/>
                     </connections>
                 </viewController>
@@ -908,13 +942,13 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
