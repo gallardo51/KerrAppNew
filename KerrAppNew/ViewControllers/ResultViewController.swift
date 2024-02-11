@@ -20,7 +20,10 @@ class ResultViewController: UIViewController {
     }
     
     private func updateUI(with answer: [Answer]) {
-        resultLabel.text = "\(answer)"
         
+        for (index, value) in answer.enumerated() {
+            resultLabel.text = "Вопрос \(index + 1): \(value.title)"
+            print(value)
+        }
     }
 }
