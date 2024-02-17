@@ -8,6 +8,8 @@
 import UIKit
 
 class QuizViewController: UIViewController {
+    
+    @IBAction func unwind(segue: UIStoryboardSegue) {}
 
     override func viewDidLoad() {
         super.viewDidLoad()

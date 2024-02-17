@@ -14,6 +14,8 @@ class QuestionsViewController: UIViewController {
     
     @IBOutlet var answerChosenButtons: [UIButton]!
     
+    @IBOutlet weak var stopQuizButton: UIButton!
+    
     private let questions = Question.getQuestions()
     private var answersChosen: [Answer] = []
     private var currentAnswers: [Answer] {

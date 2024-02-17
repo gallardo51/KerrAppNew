@@ -230,8 +230,8 @@
             filePath = "KerrAppNew/ViewControllers/UserInfoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
             landmarkName = "UserInfoViewController"
             landmarkType = "3">
             <Locations>
@@ -324,6 +324,159 @@
                   startingLineNumber = "17"
                   endingLineNumber = "17"
                   offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "C577EFDA-5204-4752-9BC9-DB5A65C910DF - 6953a5b3508cc323"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.bornDateLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C577EFDA-5204-4752-9BC9-DB5A65C910DF - 4321ffb89578d5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; KerrAppNew.UserInfoViewController"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "C577EFDA-5204-4752-9BC9-DB5A65C910DF - 88e1ee1dd1476d9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;KerrAppNew.UserInfoViewController&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "432">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB882546-328E-4947-8596-609B15E70B53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KerrAppNew/ViewControllers/UserInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "UserInfoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AB882546-328E-4947-8596-609B15E70B53 - 344f409a55e57895"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.cellPhoneLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "AB882546-328E-4947-8596-609B15E70B53 - 1d432cb2ca4ea481"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.cellPhoneLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "AB882546-328E-4947-8596-609B15E70B53 - 73a5851ac1caa0ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.cellPhoneLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "AB882546-328E-4947-8596-609B15E70B53 - 59de46fce3fde81f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.cellPhoneLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "AB882546-328E-4947-8596-609B15E70B53 - 4321ffb89578d3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; KerrAppNew.UserInfoViewController"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "AB882546-328E-4947-8596-609B15E70B53 - 88e1ee1dd1476dfd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KerrAppNew.UserInfoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;KerrAppNew.UserInfoViewController&gt;"
+                  moduleName = "KerrAppNew"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandrsobolev/Documents/XCode/SecondChance)))/KerrAppNew/KerrAppNew/ViewControllers/UserInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "472">
                </Location>
             </Locations>
          </BreakpointContent>

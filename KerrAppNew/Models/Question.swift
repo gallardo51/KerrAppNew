@@ -95,20 +95,6 @@ struct Question {
                         Answer(title: "ТОР ВМ")
                     ]
             ),
-            Question(
-                title: "Благодарим Вас за пройденный опрос!",
-                answers:
-                    [
-                        Answer(title: ""),
-                        Answer(title: ""),
-                        Answer(title: ""),
-                        Answer(title: ""),
-                        Answer(title: "Завершить опрос"),
-                        Answer(title: ""),
-                        Answer(title: ""),
-                        Answer(title: "")
-                    ]
-            ),
         ]
     }
 }
