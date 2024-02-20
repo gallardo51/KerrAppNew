@@ -7,17 +7,7 @@
 
 import UIKit
 
-protocol UserInfoViewControllerDelegate {
-    func setColor(_ color: UIColor)
-}
-
 class PersonDetailsViewController: UIViewController {
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let userVC = segue.destination as! UserInfoViewController
-        userVC.delegate = self
-        userVC.viewColor = view.backgroundColor
-    }
     
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var personNameLabel: UILabel!
@@ -39,10 +29,3 @@ class PersonDetailsViewController: UIViewController {
     }
 }
 
-
-// MARK: - ColorDelegate
-extension PersonDetailsViewController: UserInfoViewControllerDelegate {
-    func setColor(_ color: UIColor) {
-        view.backgroundColor = color
-    }
-}

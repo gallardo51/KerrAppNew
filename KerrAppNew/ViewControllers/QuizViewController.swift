@@ -16,7 +16,6 @@ class QuizViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
 
     /*
     // MARK: - Navigation
@@ -29,3 +28,4 @@ class QuizViewController: UIViewController {
     */
 
 }
+

@@ -7,7 +7,18 @@
 
 import UIKit
 
+protocol UserInfoViewControllerDelegate {
+    func setColor(_ color: UIColor)
+}
+
 class LogInViewController: UIViewController {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let navigationVC = segue.destination as? UINavigationController else { return }
+        guard let userVC = navigationVC.topViewController as? UserInfoViewController else { return }
+        userVC.delegate = self
+        userVC.viewColor = view.backgroundColor
+    }
+    
     
 //    private let user = User.getUserData()
 //    
@@ -26,4 +37,10 @@ class LogInViewController: UIViewController {
         super.viewDidLoad()
     }
 
+}
+// MARK: - ColorDelegate
+extension LogInViewController: UserInfoViewControllerDelegate {
+    func setColor(_ color: UIColor) {
+        view.backgroundColor = color
+    }
 }

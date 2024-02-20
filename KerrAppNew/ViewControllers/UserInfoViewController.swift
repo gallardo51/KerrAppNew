@@ -54,10 +54,7 @@ class UserInfoViewController: UIViewController {
         cellPhoneLabel.text = "\(user.subject.cellPhone)"
         emailLabel.text = "\(user.subject.email)"
         
-        redSlider.tintColor = .red
-        greenSlider.tintColor = .green
-        
-        colorView.backgroundColor = viewColor
+        colorView.backgroundColor = .gray
         
         setSliders()
         setValue(for: redLabel, greenLabel, blueLabel)
@@ -121,7 +118,7 @@ extension UserInfoViewController {
     }
     
     private func setSliders() {
-        let ciColor = CIColor(color: viewColor)
+        let ciColor = CIColor()
         
         redSlider.value = Float(ciColor.red)
         greenSlider.value = Float(ciColor.green)
