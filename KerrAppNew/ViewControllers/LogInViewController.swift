@@ -12,6 +12,7 @@ protocol UserInfoViewControllerDelegate {
 }
 
 class LogInViewController: UIViewController {
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let navigationVC = segue.destination as? UINavigationController else { return }
         guard let userVC = navigationVC.topViewController as? UserInfoViewController else { return }

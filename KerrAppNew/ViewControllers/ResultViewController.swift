@@ -20,6 +20,6 @@ class ResultViewController: UIViewController {
     }
     
     private func updateUI(with answer: [Answer]) {
-        resultLabel.text = "\(answer)"
+        resultLabel.text = "Вопрос 1: \(answer[0].title),\nВопрос 2: \(answer[1].title), \nВопрос 3: \(answer[2].title), \nВопрос 4: \(answer[3].title), \nВопрос 5: \(answer[4].title), \nВопрос 6: \(answer[5].title)."
         }
     }
