@@ -10,7 +10,7 @@
 		BA11DDC42B5D4BAA0090D4C9 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC32B5D4BAA0090D4C9 /* UserInfoViewController.swift */; };
 		BA11DDC62B5D4F060090D4C9 /* GroupProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC52B5D4F060090D4C9 /* GroupProductViewController.swift */; };
 		BA11DDC82B5D4FE60090D4C9 /* ProductInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC72B5D4FE60090D4C9 /* ProductInfoViewController.swift */; };
-		BA11DDCA2B5D54D60090D4C9 /* AboutCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC92B5D54D60090D4C9 /* AboutCompany.swift */; };
+		BA11DDCA2B5D54D60090D4C9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11DDC92B5D54D60090D4C9 /* Model.swift */; };
 		BA5A93B12B69573A00318C67 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5A93B02B69573A00318C67 /* QuestionsViewController.swift */; };
 		BAF381FB2B43F4740030247E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF381FA2B43F4740030247E /* AppDelegate.swift */; };
 		BAF381FD2B43F4740030247E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF381FC2B43F4740030247E /* SceneDelegate.swift */; };
@@ -21,12 +21,8 @@
 		BAF3821C2B43F4760030247E /* KerrAppNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3821B2B43F4760030247E /* KerrAppNewUITests.swift */; };
 		BAF3821E2B43F4760030247E /* KerrAppNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3821D2B43F4760030247E /* KerrAppNewUITestsLaunchTests.swift */; };
 		BAF3822B2B43F91A0030247E /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3822A2B43F91A0030247E /* PersonListViewController.swift */; };
-		BAF3822D2B43FAAB0030247E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3822C2B43FAAB0030247E /* Person.swift */; };
 		BAF3822F2B44058F0030247E /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3822E2B44058F0030247E /* PersonDetailsViewController.swift */; };
 		BAF382362B4AE02B0030247E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382352B4AE02B0030247E /* LogInViewController.swift */; };
-		BAF382382B4AF0870030247E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382372B4AF0870030247E /* Product.swift */; };
-		BAF3823A2B4AF82B0030247E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382392B4AF82B0030247E /* Question.swift */; };
-		BAF3823C2B4AFBC90030247E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3823B2B4AFBC90030247E /* User.swift */; };
 		BAF3823E2B4AFDE80030247E /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3823D2B4AFDE80030247E /* CompanyInfoViewController.swift */; };
 		BAF382402B4AFE530030247E /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF3823F2B4AFE530030247E /* ProductListViewController.swift */; };
 		BAF382422B4AFEA50030247E /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF382412B4AFEA50030247E /* QuizViewController.swift */; };
@@ -54,7 +50,7 @@
 		BA11DDC32B5D4BAA0090D4C9 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		BA11DDC52B5D4F060090D4C9 /* GroupProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupProductViewController.swift; sourceTree = "<group>"; };
 		BA11DDC72B5D4FE60090D4C9 /* ProductInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoViewController.swift; sourceTree = "<group>"; };
-		BA11DDC92B5D54D60090D4C9 /* AboutCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCompany.swift; sourceTree = "<group>"; };
+		BA11DDC92B5D54D60090D4C9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BA5A93B02B69573A00318C67 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
 		BAF381F72B43F4740030247E /* KerrAppNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KerrAppNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF381FA2B43F4740030247E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,12 +65,8 @@
 		BAF3821B2B43F4760030247E /* KerrAppNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KerrAppNewUITests.swift; sourceTree = "<group>"; };
 		BAF3821D2B43F4760030247E /* KerrAppNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KerrAppNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BAF3822A2B43F91A0030247E /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
-		BAF3822C2B43FAAB0030247E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		BAF3822E2B44058F0030247E /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 		BAF382352B4AE02B0030247E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		BAF382372B4AF0870030247E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
-		BAF382392B4AF82B0030247E /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		BAF3823B2B4AFBC90030247E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BAF3823D2B4AFDE80030247E /* CompanyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyInfoViewController.swift; sourceTree = "<group>"; };
 		BAF3823F2B4AFE530030247E /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		BAF382412B4AFEA50030247E /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
@@ -176,11 +168,7 @@
 		BAF382312B4417BC0030247E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				BA11DDC92B5D54D60090D4C9 /* AboutCompany.swift */,
-				BAF3822C2B43FAAB0030247E /* Person.swift */,
-				BAF382372B4AF0870030247E /* Product.swift */,
-				BAF382392B4AF82B0030247E /* Question.swift */,
-				BAF3823B2B4AFBC90030247E /* User.swift */,
+				BA11DDC92B5D54D60090D4C9 /* Model.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -347,20 +335,16 @@
 				BA11DDC42B5D4BAA0090D4C9 /* UserInfoViewController.swift in Sources */,
 				BA11DDC62B5D4F060090D4C9 /* GroupProductViewController.swift in Sources */,
 				BAF3822F2B44058F0030247E /* PersonDetailsViewController.swift in Sources */,
-				BAF3823A2B4AF82B0030247E /* Question.swift in Sources */,
 				BAF3822B2B43F91A0030247E /* PersonListViewController.swift in Sources */,
 				BA11DDC82B5D4FE60090D4C9 /* ProductInfoViewController.swift in Sources */,
 				BAF382422B4AFEA50030247E /* QuizViewController.swift in Sources */,
 				BAF382362B4AE02B0030247E /* LogInViewController.swift in Sources */,
 				BAF381FB2B43F4740030247E /* AppDelegate.swift in Sources */,
-				BAF3823C2B4AFBC90030247E /* User.swift in Sources */,
-				BA11DDCA2B5D54D60090D4C9 /* AboutCompany.swift in Sources */,
-				BAF3822D2B43FAAB0030247E /* Person.swift in Sources */,
+				BA11DDCA2B5D54D60090D4C9 /* Model.swift in Sources */,
 				BAF381FD2B43F4740030247E /* SceneDelegate.swift in Sources */,
 				BA5A93B12B69573A00318C67 /* QuestionsViewController.swift in Sources */,
 				BAF3823E2B4AFDE80030247E /* CompanyInfoViewController.swift in Sources */,
 				BAF382402B4AFE530030247E /* ProductListViewController.swift in Sources */,
-				BAF382382B4AF0870030247E /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
